@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="bg">
+    <img src="https://img.freepik.com/free-photo/we-are-hiring-digital-collage_23-2149667055.jpg?w=996&t=st=1719636568~exp=1719637168~hmac=f89cb7303c81327226f8132ebdf26f6239e86c165d6a67be095b1c0987370b40"alt="Background Image">
+    </div>
+    <div class="container">
+        <h1>Job Application Form</h1>
+        <form id="jobApplicationForm">
+            <label >Name:</label>
+            <input type="text" id="name" name="name" placeholder="username" required>
+            
+            <label >Roll Number:</label>
+            <input type="text" id="rl" name="rl" required>
+
+            <label >CGPA:</label>
+            <input type="number" step="0.01" id="cgpa" name="cgpa" required>
+            
+            <label >Role:</label>
+            <input type="text" id="role" name="role" required>
+
+
+            <label >Graduation Year:</label>
+            <input type="number" id="gy" name="gy" required>
+            
+            <button type="submit">Apply</button>
+            <p id="message"></p>
+        </form>
+    </div>
+    <script src="jobs.js"></script>
+</body>
+</html>
